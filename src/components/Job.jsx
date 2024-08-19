@@ -6,7 +6,7 @@ import Title from "./Title";
 const Job = (props) => {
   console.log(props);
   return (
-    <div className="item {className.props}">
+    <div className="item {props.className}">
       <Title title={props.title} />
       <div className="item-bottom">
         <ContractType contractType={props.contractType} />
